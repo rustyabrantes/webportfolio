@@ -4,14 +4,18 @@
 	padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	font-family: "Open Sans", sans-serif;
 	background-color: rgb(145, 127, 179);
 }
 
-.landing {
+#landing {
 	text-align: center;
-	min-height: 80vh;
+	min-height: 100vh;
 	background-color: rgb(76, 76, 109);
 /*	background-image: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_1280.jpg);*/
 }
@@ -24,27 +28,31 @@ body {
 	padding: 5px;
 }
 
-.about {
+#about {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	color: white;
+	min-height: 100vh
 }
 
 .card {
 	padding: 20px;
-	margin-left: 200px;
-	margin-right: 200px;
+	height: 100vh;
+	background-color: rgb(76, 76, 109);
 }
 
-.projects {
+#projects {
 	text-align: center;
 	padding-top: 20px;
-	padding-bottom: 20px
+	padding-bottom: 20px;
+	min-height: 100vh
 }
 
-.tool {
+#tool {
 	text-align: center;
 	padding-top: 20px;
+	min-height: 100vh
 }
 
 .tools {
@@ -82,16 +90,17 @@ body {
 	color: white;
 }
 
-.contact_us {
+#contact_us {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px
+	min-height: 100vh
 }
 
 .contact {
 	background-color: slategrey;
-	margin-left: 250px;
-	margin-right: 250px;
+	margin-left: 100px;
+	margin-right: 100px;
 	margin-bottom: 50px;
 	text-align: center;
 }
